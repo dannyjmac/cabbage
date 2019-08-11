@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
+    "mapbox-gl": "^0.53.1",
+    "node-sass": "^4.11.0",
     "react": "^16.8.6",
+    "react-device-detect": "^1.7.5",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-fontawesome": "^1.6.1",
+    "react-mapbox-gl": "^4.2.0",
+    "react-scripts": "2.1.8",
+    "react-slick": "^0.24.0",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",

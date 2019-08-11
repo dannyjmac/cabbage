@@ -1,0 +1,22 @@
+@import '../../scss/variables.scss';
+@import '../../scss/mixins.scss';
+
+.MainSlider {
+    &__main {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        img {
+            margin-top: 5px;
+            width: 150px;
+            height: 150px;
+            user-select: none;
+            @include mobile {
+                width: 200px;
+                height: 120px;
+                object-fit: cover;
+                object-position: 0 35%;
+            }
+        }
+    }
+}
