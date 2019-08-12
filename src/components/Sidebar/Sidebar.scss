@@ -21,6 +21,7 @@
         width: 100vw;
         overflow-y: scroll;
         transform: translate(0px, 330px);
+        border-radius: 0px;
     }
     &__open {
         transform: translateX(0px);
